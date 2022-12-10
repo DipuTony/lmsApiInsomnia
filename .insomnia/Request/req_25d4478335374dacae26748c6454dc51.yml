@@ -1,0 +1,23 @@
+_id: req_25d4478335374dacae26748c6454dc51
+type: Request
+parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
+modified: 1670681842462
+created: 1670511540622
+url: 127.0.0.1:8000/api/crud/get-all-centers
+name: Get All Centers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
+metaSortKey: -1670511540622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

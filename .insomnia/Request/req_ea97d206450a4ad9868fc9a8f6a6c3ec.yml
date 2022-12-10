@@ -1,0 +1,30 @@
+_id: req_ea97d206450a4ad9868fc9a8f6a6c3ec
+type: Request
+parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
+modified: 1670681994324
+created: 1670511589774
+url: 127.0.0.1:8000/api/crud/deactivate-center
+name: Deactive Center
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id":1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
+metaSortKey: -1670511589774
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

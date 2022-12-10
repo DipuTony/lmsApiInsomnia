@@ -1,0 +1,36 @@
+_id: req_ed9de63451f949d0b01c4f59e3930eed
+type: Request
+parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
+modified: 1670681934361
+created: 1670511510907
+url: 127.0.0.1:8000/api/crud/center
+name: Centers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"centerName":"Center2",
+    	"centerEmail":"center@gmail.com",
+    	"centerAddress":"New Shartri Nagar",
+    	"centerPhone":"0123456789",
+    	"ownerName":"Learnind",
+    	"website":"center.com",
+    	"logo":""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
+metaSortKey: -1670511510907
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
