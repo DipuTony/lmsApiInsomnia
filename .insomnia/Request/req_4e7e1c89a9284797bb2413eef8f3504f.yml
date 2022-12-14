@@ -1,0 +1,46 @@
+_id: req_4e7e1c89a9284797bb2413eef8f3504f
+type: Request
+parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
+modified: 1671028734252
+created: 1670854925334
+url: 127.0.0.1:8000/api/crud/current-affairs/store
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_48c55fcbbe8f4b2da977d8b5251cd112
+      name: heading
+      value: China India
+      description: ""
+    - id: pair_50dbd209195f4bb48ea2d2a08d2e9f54
+      name: description
+      value: Anshu
+      description: ""
+    - id: pair_1f11810f92b845c3b2dba35759610bcc
+      name: featureImage
+      value: sadfas
+      description: ""
+      type: file
+      fileName: C:\Users\dipu\Pictures\modi trumo.png
+      disabled: false
+    - id: pair_75b922e823f8418cb6c1e1fc10c7db92
+      name: tags
+      value: China,India,News
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: 54|FnHZlmcZHRqbGNixD9cURLVdB5ff1RPX17H6Ayo3
+metaSortKey: -1670854925334
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

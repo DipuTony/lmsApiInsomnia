@@ -1,0 +1,49 @@
+_id: req_1f9302ef54524fae95ad01090f89617e
+type: Request
+parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
+modified: 1671026631479
+created: 1670860030029
+url: 127.0.0.1:8000/api/crud/current-affairs/update
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_772fcc6ae14e4f349cea7f5d77118234
+      name: id
+      value: "1"
+      description: ""
+    - id: pair_50fbc4480806403fb6a13d42ed6f2d94
+      name: heading
+      value: headingUpd
+      description: ""
+    - id: pair_46483a208bb9459a9452d38aaf023258
+      name: description
+      value: descUpd
+      description: ""
+    - id: pair_58e14cbdc0b04cedb520e42166d3123f
+      name: featureImage
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\dipu\Pictures\modi trumo.png
+    - id: pair_cbc23338e75f42fab60d38ba730a215d
+      name: tags
+      value: sdaf
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: 54|FnHZlmcZHRqbGNixD9cURLVdB5ff1RPX17H6Ayo3
+metaSortKey: -1670860030029
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

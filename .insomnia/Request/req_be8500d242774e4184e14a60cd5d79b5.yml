@@ -1,10 +1,10 @@
-_id: req_ea97d206450a4ad9868fc9a8f6a6c3ec
+_id: req_be8500d242774e4184e14a60cd5d79b5
 type: Request
-parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
-modified: 1670854928041
-created: 1670511589774
-url: 127.0.0.1:8000/api/crud/deactivate-center
-name: Deactive Center
+parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
+modified: 1671028738469
+created: 1670860452363
+url: 127.0.0.1:8000/api/crud/current-affairs/get-by-id
+name: get by id
 description: ""
 method: POST
 body:
@@ -19,8 +19,8 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
-metaSortKey: -1670511589774
+  token: 54|FnHZlmcZHRqbGNixD9cURLVdB5ff1RPX17H6Ayo3
+metaSortKey: -1670860452363
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

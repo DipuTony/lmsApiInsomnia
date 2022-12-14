@@ -1,0 +1,23 @@
+_id: req_2c347a8e820e47a9a4d6e9d6908892ca
+type: Request
+parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
+modified: 1671026638568
+created: 1670860541520
+url: 127.0.0.1:8000/api/crud/current-affairs/all-current-affairs
+name: Get All
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: 54|FnHZlmcZHRqbGNixD9cURLVdB5ff1RPX17H6Ayo3
+metaSortKey: -1670860541520
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
