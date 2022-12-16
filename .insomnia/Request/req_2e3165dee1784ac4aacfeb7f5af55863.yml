@@ -1,7 +1,7 @@
 _id: req_2e3165dee1784ac4aacfeb7f5af55863
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1671201741338
+modified: 1671205138367
 created: 1671119824469
 url: 127.0.0.1:8000/api/teacher/register
 name: Teacher Register
@@ -12,15 +12,17 @@ body:
   text: |-
     {
     	"name":"Anshu",
-    	"email":"teacher@gmail.com",
-    	"password":"Student#",
+    	"email":"teacher1@gmail.com",
+    	"password":"Teacher1#",
     	"mobile":"0123456789"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: 58|uTnisQq7Hvbi3Bn4trhEOm4IN55jciFZmsu2yWcI
 metaSortKey: -1671119824469
 isPrivate: false
 settingStoreCookies: true
