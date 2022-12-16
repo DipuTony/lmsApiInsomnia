@@ -1,26 +1,27 @@
-_id: req_be8500d242774e4184e14a60cd5d79b5
+_id: req_2e3165dee1784ac4aacfeb7f5af55863
 type: Request
-parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
-modified: 1671114953098
-created: 1670860452363
-url: 127.0.0.1:8000/api/crud/current-affairs/get-by-id
-name: get by id
+parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
+modified: 1671201741338
+created: 1671119824469
+url: 127.0.0.1:8000/api/teacher/register
+name: Teacher Register
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":1
+    	"name":"Anshu",
+    	"email":"teacher@gmail.com",
+    	"password":"Student#",
+    	"mobile":"0123456789"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication:
-  type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
-metaSortKey: -1670860452363
+authentication: {}
+metaSortKey: -1671119824469
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

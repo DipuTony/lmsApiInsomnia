@@ -1,27 +1,28 @@
-_id: req_3a30b3d5cadf463fac365e7001b76c81
+_id: req_406f1d227f3644efb874c6ffb1d52653
 type: Request
-parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1671117936596
-created: 1670341027842
-url: 127.0.0.1:8000/api/auth/login
-name: Login
+parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
+modified: 1671119881972
+created: 1671118947938
+url: 127.0.0.1:8000/api/student/register
+name: Register
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"admin@gmail.com",
-    	"password":"Admin1#",
-    	"centerCode":"CC01"
+    	"name":"Anshu",
+    	"email":"9939student@gmail.com",
+    	"password":"Student#",
+    	"mobile":"0123456789"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_9649348b4baf4e35a241a0b706d02e7b
+    id: pair_df9fcdb7af52473d8c491dda5b6ac109
 authentication: {}
-metaSortKey: -1670511417642
+metaSortKey: -1671118947938
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
