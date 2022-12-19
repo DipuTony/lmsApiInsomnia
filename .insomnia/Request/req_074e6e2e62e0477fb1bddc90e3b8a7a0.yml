@@ -1,0 +1,63 @@
+_id: req_074e6e2e62e0477fb1bddc90e3b8a7a0
+type: Request
+parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
+modified: 1671465186488
+created: 1671464586522
+url: 127.0.0.1:8000/api/crud/courses/update
+name: Update
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_fe6d2dd2a1564138ae836b11fe093f66
+      name: id
+      value: "1"
+      description: ""
+    - id: pair_7ea2a4681a794d7b841eec20e36f91fd
+      name: courseName
+      value: editted
+      description: ""
+    - id: pair_26992205d90d4aca99f7814c753a7a1d
+      name: fee
+      value: "500"
+      description: ""
+    - id: pair_0691fdc9e48a4560a584afaf09d8b8ee
+      name: discount
+      value: "5"
+      description: ""
+    - id: pair_20c9d0c1cc4a416fbf0d65b772c4694c
+      name: finalPrice
+      value: "450"
+      description: ""
+    - id: pair_9ff24792484745f199d749420cdd2a9a
+      name: productId
+      value: "5"
+      description: ""
+    - id: pair_c847887bda98418aa1ab895b865b2c38
+      name: categoryId
+      value: "10"
+      description: ""
+    - id: pair_da5fd96636c0416e825fdae1b1409570
+      name: featuredImage
+      value: ""
+      description: ""
+      type: file
+      multiline: null
+      fileName: C:\Users\dipu\Pictures\modi trumo.png
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: 63|aso9dysJlHqxuZggZpaG8iFj31vfv41DSF4GDjWI
+metaSortKey: -1671462450074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

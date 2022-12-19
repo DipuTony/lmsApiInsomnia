@@ -1,7 +1,7 @@
 _id: req_406f1d227f3644efb874c6ffb1d52653
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1671205201570
+modified: 1671462798660
 created: 1671118947938
 url: 127.0.0.1:8000/api/student/register
 name: Register

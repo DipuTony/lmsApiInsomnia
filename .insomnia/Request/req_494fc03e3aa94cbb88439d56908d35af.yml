@@ -1,20 +1,17 @@
-_id: req_36caffe184aa40e29de0fd8680c9a519
+_id: req_494fc03e3aa94cbb88439d56908d35af
 type: Request
-parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1671462802538
-created: 1670510964199
-url: 127.0.0.1:8000/api/auth/register
-name: Register
+parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
+modified: 1671465715889
+created: 1671465147082
+url: 127.0.0.1:8000/api/crud/courses/show
+name: show
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Admin",
-    	"email":"admin1@gmail.com",
-    	"password":"ABCD",
-    	"userType":"1"
+    	"id":1
     }
 parameters: []
 headers:
@@ -22,8 +19,8 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
-metaSortKey: -1670511417592
+  token: 63|aso9dysJlHqxuZggZpaG8iFj31vfv41DSF4GDjWI
+metaSortKey: -1671465147082
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
