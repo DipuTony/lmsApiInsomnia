@@ -1,9 +1,9 @@
 _id: req_36caffe184aa40e29de0fd8680c9a519
 type: Request
 parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1671462802538
+modified: 1671545870760
 created: 1670510964199
-url: 127.0.0.1:8000/api/auth/register
+url: "{{ _.baseUrl }}/api/auth/register"
 name: Register
 description: ""
 method: POST

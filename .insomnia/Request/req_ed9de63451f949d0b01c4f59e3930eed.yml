@@ -1,9 +1,9 @@
 _id: req_ed9de63451f949d0b01c4f59e3930eed
 type: Request
 parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
-modified: 1671116738990
+modified: 1671545895516
 created: 1670511510907
-url: 127.0.0.1:8000/api/crud/center
+url: "{{ _.baseUrl }}/api/crud/center"
 name: Centers
 description: ""
 method: POST
@@ -25,7 +25,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
+  token: "{{ _.bearer }}"
 metaSortKey: -1670511510907
 isPrivate: false
 settingStoreCookies: true

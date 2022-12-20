@@ -1,9 +1,9 @@
 _id: req_62a6f3a4c0d641e9a6bc9a82726a4ba0
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1671464744652
+modified: 1671545981641
 created: 1671462450024
-url: 127.0.0.1:8000/api/crud/courses/store
+url: "{{ _.baseUrl }}/api/crud/courses/store"
 name: store
 description: ""
 method: POST
@@ -38,7 +38,6 @@ body:
       value: ""
       description: ""
       type: file
-      multiline: null
       fileName: C:\Users\dipu\Pictures\modi trumo.png
 parameters: []
 headers:
@@ -46,7 +45,7 @@ headers:
     value: multipart/form-data
 authentication:
   type: bearer
-  token: 63|aso9dysJlHqxuZggZpaG8iFj31vfv41DSF4GDjWI
+  token: "{{ _.bearer }}"
 metaSortKey: -1671462450024
 isPrivate: false
 settingStoreCookies: true

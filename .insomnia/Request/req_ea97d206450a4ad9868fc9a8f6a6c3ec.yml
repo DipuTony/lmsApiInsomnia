@@ -1,9 +1,9 @@
 _id: req_ea97d206450a4ad9868fc9a8f6a6c3ec
 type: Request
 parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
-modified: 1670854928041
+modified: 1671545925485
 created: 1670511589774
-url: 127.0.0.1:8000/api/crud/deactivate-center
+url: "{{ _.baseUrl }}/api/crud/deactivate-center"
 name: Deactive Center
 description: ""
 method: POST
@@ -19,7 +19,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 50|xkLc25BnYLIgfsfUMcZ5iMolpA4jMlgc28qr36Lg
+  token: "{{ _.bearer }}"
 metaSortKey: -1670511589774
 isPrivate: false
 settingStoreCookies: true

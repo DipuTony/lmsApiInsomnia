@@ -1,9 +1,9 @@
 _id: req_38b6d81b9d7844de94ead9b6d93a747a
 type: Request
 parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
-modified: 1671118952749
+modified: 1671545959807
 created: 1671026670422
-url: 127.0.0.1:8000/api/crud/current-affairs/search-by-tags
+url: "{{ _.baseUrl }}/api/crud/current-affairs/search-by-tags"
 name: Get By tags
 description: ""
 method: POST
@@ -19,7 +19,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
+  token: "{{ _.bearer }}"
 metaSortKey: -1671026670422
 isPrivate: false
 settingStoreCookies: true

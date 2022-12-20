@@ -1,9 +1,9 @@
 _id: req_2c347a8e820e47a9a4d6e9d6908892ca
 type: Request
 parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
-modified: 1671111980522
+modified: 1671545954678
 created: 1670860541520
-url: 127.0.0.1:8000/api/crud/current-affairs/all-current-affairs
+url: "{{ _.baseUrl }}/api/crud/current-affairs/all-current-affairs"
 name: Get All
 description: ""
 method: POST
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
+  token: "{{ _.bearer }}"
 metaSortKey: -1670860541520
 isPrivate: false
 settingStoreCookies: true

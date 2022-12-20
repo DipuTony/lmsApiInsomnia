@@ -1,9 +1,9 @@
 _id: req_be8500d242774e4184e14a60cd5d79b5
 type: Request
 parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
-modified: 1671114953098
+modified: 1671545949141
 created: 1670860452363
-url: 127.0.0.1:8000/api/crud/current-affairs/get-by-id
+url: "{{ _.baseUrl }}/api/crud/current-affairs/get-by-id"
 name: get by id
 description: ""
 method: POST
@@ -19,7 +19,7 @@ headers:
     value: application/json
 authentication:
   type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
+  token: "{{ _.bearer }}"
 metaSortKey: -1670860452363
 isPrivate: false
 settingStoreCookies: true

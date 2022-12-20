@@ -1,9 +1,9 @@
 _id: req_1f9302ef54524fae95ad01090f89617e
 type: Request
 parentId: fld_3d9ff3e5b0eb463c8e2d021961aa0adc
-modified: 1671114952112
+modified: 1671545942461
 created: 1670860030029
-url: 127.0.0.1:8000/api/crud/current-affairs/update
+url: "{{ _.baseUrl }}/api/crud/current-affairs/update"
 name: Update
 description: ""
 method: POST
@@ -38,7 +38,7 @@ headers:
     value: multipart/form-data
 authentication:
   type: bearer
-  token: 57|2TUcQsIdJ9TDxUJVa1KqRL3jWe46EDH4BYZanpeJ
+  token: "{{ _.bearer }}"
 metaSortKey: -1670860030029
 isPrivate: false
 settingStoreCookies: true
