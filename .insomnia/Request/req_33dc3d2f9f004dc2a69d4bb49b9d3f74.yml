@@ -1,27 +1,19 @@
-_id: req_9665dac760984025beb949209440644c
+_id: req_33dc3d2f9f004dc2a69d4bb49b9d3f74
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1671642681707
-created: 1671636245796
-url: "{{ _.baseUrl }}/api/student/deactivate"
-name: Deactivate Student
+modified: 1671642844258
+created: 1671642791046
+url: "{{ _.baseUrl }}/api/teacher/get-all-teachers"
+name: Get All Teachers
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"studentId":1,
-    	"status":"1"
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1671636245796
+metaSortKey: -1671642791046
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
