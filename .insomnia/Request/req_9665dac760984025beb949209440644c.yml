@@ -1,17 +1,18 @@
-_id: req_ea97d206450a4ad9868fc9a8f6a6c3ec
+_id: req_9665dac760984025beb949209440644c
 type: Request
-parentId: fld_ac9fac99c13a4f31af1f6f33ffb9659e
-modified: 1671636665451
-created: 1670511589774
-url: "{{ _.baseUrl }}/api/crud/deactivate-center"
-name: Deactive Center
+parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
+modified: 1671638591591
+created: 1671636245796
+url: "{{ _.baseUrl }}/api/student/deactivate"
+name: Deactivate Student
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":1
+    	"studentId":1,
+    	"status":0
     }
 parameters: []
 headers:
@@ -20,7 +21,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1670511589774
+metaSortKey: -1671636245796
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

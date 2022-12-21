@@ -1,0 +1,23 @@
+_id: req_438a8587519b486cbab4e343bd73a143
+type: Request
+parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
+modified: 1671638651052
+created: 1671638580133
+url: "{{ _.baseUrl }}/api/student/get-all-students"
+name: Get All Students
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1671638580133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
