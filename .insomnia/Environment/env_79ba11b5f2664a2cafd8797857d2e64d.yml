@@ -1,12 +1,12 @@
 _id: env_79ba11b5f2664a2cafd8797857d2e64d
 type: Environment
 parentId: env_35e53f3c9fbd5f1d6a132cca5c92c94a122e9773
-modified: 1671636663238
+modified: 1671952303913
 created: 1671545616369
 name: .env
 data:
   baseUrl: 127.0.0.1:8000
-  bearer: 70|p2JAD5nS8SaGwvZgnfaPt7WAoMnx1gnI1HpZMrQk
+  bearer: 72|BphS8pj09OVzUf7QlitH66X2LGklPR7dGrvYVR6V
 dataPropertyOrder:
   "&":
     - baseUrl

@@ -1,26 +1,19 @@
-_id: req_494fc03e3aa94cbb88439d56908d35af
+_id: req_634347ef50b24b81a7c63b773b979da2
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1671952444315
-created: 1671465147082
-url: "{{ _.baseUrl }}/api/crud/courses/show"
-name: show
+modified: 1671953061644
+created: 1671953013751
+url: "{{ _.baseUrl }}/api/crud/courses/get-active-list"
+name: Show Active List
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"id":2
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1671465147082
+metaSortKey: -1671507512458.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_66e299c1f6f847aa8240dfe5d192c1bf
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1671549908494
+modified: 1671952998279
 created: 1671549467513
 url: "{{ _.baseUrl }}/api/crud/courses/deactivate"
 name: Deactivate
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"id":1,
-    	"status":1
+    	"id":4,
+    	"status":0
     }
 parameters: []
 headers:
