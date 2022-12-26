@@ -1,26 +1,24 @@
-_id: req_3a30b3d5cadf463fac365e7001b76c81
+_id: req_94b26b8cb2714466b436d71df2d21ebb
 type: Request
-parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1672072490697
-created: 1670341027842
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_f4a6d993eee545da852eb47f8156cf8a
+modified: 1672075774099
+created: 1672075729101
+url: "{{ _.baseUrl }}/api/crud/course-category/get-category-by-id"
+name: Get  Category by id
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"admin@gmail.com",
-    	"password":"Admin1#"
+    	"id":1
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_9649348b4baf4e35a241a0b706d02e7b
 authentication: {}
-metaSortKey: -1670511417642
+metaSortKey: -1672075729101
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

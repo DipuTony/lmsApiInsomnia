@@ -1,0 +1,23 @@
+_id: req_f4d52be43dde427e81c4824d5b20ff07
+type: Request
+parentId: fld_f4a6d993eee545da852eb47f8156cf8a
+modified: 1672075156393
+created: 1672075120696
+url: "{{ _.baseUrl }}/api/crud/course-category/get-list"
+name: Get all list
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672075120696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

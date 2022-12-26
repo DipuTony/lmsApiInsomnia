@@ -1,26 +1,28 @@
-_id: req_3a30b3d5cadf463fac365e7001b76c81
+_id: req_b011c110393c4345a1b743e1d5e88f2d
 type: Request
-parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1672072490697
-created: 1670341027842
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_f4a6d993eee545da852eb47f8156cf8a
+modified: 1672075450286
+created: 1672072728693
+url: "{{ _.baseUrl }}/api/crud/course-category/edit"
+name: Update
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"admin@gmail.com",
-    	"password":"Admin1#"
+    	"id":1,
+    	"category":"LKJs",
+    	"status":"0"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_9649348b4baf4e35a241a0b706d02e7b
-authentication: {}
-metaSortKey: -1670511417642
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
+metaSortKey: -1672072728693
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

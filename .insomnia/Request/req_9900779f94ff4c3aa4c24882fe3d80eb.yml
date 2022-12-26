@@ -1,0 +1,21 @@
+_id: req_9900779f94ff4c3aa4c24882fe3d80eb
+type: Request
+parentId: fld_f4a6d993eee545da852eb47f8156cf8a
+modified: 1672075398598
+created: 1672075376103
+url: "{{ _.baseUrl }}/api/crud/course-category/get-active-list"
+name: Active Course LIst
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672075376103
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
