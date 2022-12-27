@@ -1,26 +1,24 @@
-_id: req_16c5218f1e444971849eacb808ce3a8c
+_id: req_235b0c689ebb40708a62ec6c358e936b
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1672120368229
-created: 1671549910628
-url: "{{ _.baseUrl }}/api/crud/courses/delete"
-name: Delete
+modified: 1672120521302
+created: 1672120365981
+url: "{{ _.baseUrl }}/api/crud/courses/show-by-category"
+name: Show by Category
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":"1"
+    	"categoryId":"1"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication:
-  type: bearer
-  token: "{{ _.bearer }}"
-metaSortKey: -1671549910628
+authentication: {}
+metaSortKey: -1672120365981
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

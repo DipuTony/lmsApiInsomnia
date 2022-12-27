@@ -1,7 +1,7 @@
 _id: req_94b26b8cb2714466b436d71df2d21ebb
 type: Request
 parentId: fld_f4a6d993eee545da852eb47f8156cf8a
-modified: 1672075774099
+modified: 1672120346239
 created: 1672075729101
 url: "{{ _.baseUrl }}/api/crud/course-category/get-category-by-id"
 name: Get  Category by id
