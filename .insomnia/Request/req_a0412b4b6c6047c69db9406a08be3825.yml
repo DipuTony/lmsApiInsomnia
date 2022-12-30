@@ -1,24 +1,24 @@
-_id: req_94b26b8cb2714466b436d71df2d21ebb
+_id: req_a0412b4b6c6047c69db9406a08be3825
 type: Request
-parentId: fld_f4a6d993eee545da852eb47f8156cf8a
-modified: 1672417661780
-created: 1672075729101
-url: "{{ _.baseUrl }}/api/crud/course-category/get-category-by-id"
-name: Get  Category by id
+parentId: wrk_8afea2c4c95244889154ec5a6e2bc4b6
+modified: 1672419426135
+created: 1672417645535
+url: "{{ _.baseUrl }}/api/payment/stripe-post"
+name: Stripe Payment
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"id":1
+    	"name":"Anshu"
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1672075729101
+metaSortKey: -1672417645536
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

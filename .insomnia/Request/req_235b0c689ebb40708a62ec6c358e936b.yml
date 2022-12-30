@@ -1,7 +1,7 @@
 _id: req_235b0c689ebb40708a62ec6c358e936b
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1672120521302
+modified: 1672414451118
 created: 1672120365981
 url: "{{ _.baseUrl }}/api/crud/courses/show-by-category"
 name: Show by Category
