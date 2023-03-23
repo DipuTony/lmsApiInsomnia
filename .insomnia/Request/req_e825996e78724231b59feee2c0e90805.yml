@@ -1,10 +1,10 @@
-_id: req_33dc3d2f9f004dc2a69d4bb49b9d3f74
+_id: req_e825996e78724231b59feee2c0e90805
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1679592390666
-created: 1671642791046
-url: "{{ _.baseUrl }}/api/teacher/get-all-teachers"
-name: Get All Teachers
+modified: 1679593442463
+created: 1679593425677
+url: "{{ _.baseUrl }}/api/student/get-cart-list"
+name: Get Cart List
 description: ""
 method: POST
 body: {}
@@ -13,7 +13,7 @@ headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1671642091351
+metaSortKey: -1671642301259.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
