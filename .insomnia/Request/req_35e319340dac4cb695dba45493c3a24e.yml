@@ -1,7 +1,7 @@
 _id: req_35e319340dac4cb695dba45493c3a24e
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1679593428311
+modified: 1679937018445
 created: 1679592386574
 url: "{{ _.baseUrl }}/api/student/add-to-cart"
 name: Add To Cart
@@ -11,9 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"courseList":[
-    		1,2,3
-    	]
+    	"courseList":5
     }
 parameters: []
 headers:
