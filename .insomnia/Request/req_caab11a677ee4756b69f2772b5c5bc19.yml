@@ -1,26 +1,24 @@
-_id: req_3a30b3d5cadf463fac365e7001b76c81
+_id: req_caab11a677ee4756b69f2772b5c5bc19
 type: Request
-parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1680024861721
-created: 1670341027842
-url: "{{ _.baseUrl }}/api/auth/login"
-name: Login
+parentId: fld_e260f79bab6f4109929d4c28c989261a
+modified: 1680030172282
+created: 1680027428767
+url: "{{ _.baseUrl }}/api/payment/razorpay-post"
+name: Razor pay payment
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"email":"student2@gmail.com",
-    	"password":"Admin1#"
+    	"amount":500
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_9649348b4baf4e35a241a0b706d02e7b
 authentication: {}
-metaSortKey: -1670511417642
+metaSortKey: -1680027428767
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_62a6f3a4c0d641e9a6bc9a82726a4ba0
 type: Request
 parentId: fld_0c9dd2b2aaec478c805800b8a80f24bb
-modified: 1679935831151
+modified: 1680024687712
 created: 1671462450024
 url: "{{ _.baseUrl }}/api/crud/courses/store"
 name: store
@@ -38,6 +38,7 @@ body:
       fileName: C:\Users\User\Pictures\Saved Pictures\MITH PS DISTRICT
         SELECT_files\Logo.png
       multiline: false
+      disabled: false
 parameters: []
 headers:
   - name: Content-Type
