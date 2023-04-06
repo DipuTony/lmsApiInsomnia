@@ -1,7 +1,7 @@
 _id: req_2c8ac1ac4cd1444aa7647fedde164b44
 type: Request
 parentId: fld_e260f79bab6f4109929d4c28c989261a
-modified: 1680113355070
+modified: 1680804940575
 created: 1680112925363
 url: "{{ _.baseUrl }}/api/payment/razorpay-webhook-request"
 name: Razor pay Request
@@ -11,8 +11,53 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"paymentId":"asdfsaf",
-    	"amount":"500"
+    	"entity": "event",
+    	"account_id": "acc_DJjlteFMvxWB5t",
+    	"event": "payment.authorized",
+    	"contains": [
+    		"payment"
+    	],
+    	"payload": {
+    		"payment": {
+    			"entity": {
+    				"id": "pay_LYdKIFoLofF53g",
+    				"entity": "payment",
+    				"amount": 198000,
+    				"currency": "INR",
+    				"status": "captured",
+    				"order_id": "order_LabKUogtfEoZbi",
+    				"invoice_id": null,
+    				"international": false,
+    				"method": "netbanking",
+    				"amount_refunded": 0,
+    				"refund_status": null,
+    				"captured": false,
+    				"description": "This is used for Testing Purpose",
+    				"card_id": null,
+    				"bank": "HDFC",
+    				"wallet": null,
+    				"vpa": null,
+    				"email": "ljl@gmail.com",
+    				"contact": "+919695858585",
+    				"notes": {
+    					"courseIds": "1,2",
+    					"userId": 12
+    				},
+    				"fee": null,
+    				"tax": null,
+    				"error_code": null,
+    				"error_description": null,
+    				"error_source": null,
+    				"error_step": null,
+    				"error_reason": null,
+    				"acquirer_data": {
+    					"bank_transaction_id": "7488049"
+    				},
+    				"created_at": 1680375276
+    			}
+    		}
+    	},
+    	"created_at": 1680375281
     }
 parameters: []
 headers:

@@ -1,7 +1,7 @@
 _id: req_3a30b3d5cadf463fac365e7001b76c81
 type: Request
 parentId: fld_d9ed040f5b2f42418373442791abf73e
-modified: 1680113288604
+modified: 1680542930674
 created: 1670341027842
 url: "{{ _.baseUrl }}/api/auth/login"
 name: Login
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"student@gmail.com",
-    	"password":"Admin1#"
+    	"email":"student13@gmail.com",
+    	"password":"Student1#"
     }
 parameters: []
 headers:

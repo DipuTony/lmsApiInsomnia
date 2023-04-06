@@ -1,7 +1,7 @@
 _id: req_caab11a677ee4756b69f2772b5c5bc19
 type: Request
 parentId: fld_e260f79bab6f4109929d4c28c989261a
-modified: 1680030172282
+modified: 1680800959621
 created: 1680027428767
 url: "{{ _.baseUrl }}/api/payment/razorpay-post"
 name: Razor pay payment
@@ -11,13 +11,18 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"amount":500
+    	"courseId":[
+    		1,
+    		2
+    	]
     }
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.bearer }}"
 metaSortKey: -1680027428767
 isPrivate: false
 settingStoreCookies: true
