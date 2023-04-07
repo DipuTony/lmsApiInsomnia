@@ -1,7 +1,7 @@
 _id: req_2c8ac1ac4cd1444aa7647fedde164b44
 type: Request
 parentId: fld_e260f79bab6f4109929d4c28c989261a
-modified: 1680804940575
+modified: 1680807201775
 created: 1680112925363
 url: "{{ _.baseUrl }}/api/payment/razorpay-webhook-request"
 name: Razor pay Request
@@ -22,10 +22,10 @@ body:
     			"entity": {
     				"id": "pay_LYdKIFoLofF53g",
     				"entity": "payment",
-    				"amount": 198000,
+    				"amount": 990,
     				"currency": "INR",
     				"status": "captured",
-    				"order_id": "order_LabKUogtfEoZbi",
+    				"order_id": "order_LabvuSrERu7viN",
     				"invoice_id": null,
     				"international": false,
     				"method": "netbanking",
@@ -40,7 +40,7 @@ body:
     				"email": "ljl@gmail.com",
     				"contact": "+919695858585",
     				"notes": {
-    					"courseIds": "1,2",
+    					"courseIds": "3",
     					"userId": 12
     				},
     				"fee": null,

@@ -1,26 +1,19 @@
-_id: req_ab5e3bfac45f462daa4ba1bae4cbff42
+_id: req_9ceab17d57df4388a45adb0abc65b249
 type: Request
 parentId: fld_4d37d0e2dba74bab86577b92a7c4b918
-modified: 1680805929465
-created: 1679937187944
-url: "{{ _.baseUrl }}/api/student/remove-cart"
-name: Remove Cart
+modified: 1680806919317
+created: 1680805925095
+url: "{{ _.baseUrl }}/api/student/tran-history"
+name: Transaction History
 description: ""
 method: POST
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"courseList":5
-    }
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
+headers: []
 authentication:
   type: bearer
   token: "{{ _.bearer }}"
-metaSortKey: -1671642232383.2734
+metaSortKey: -1671642234843.1387
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,7 +1,7 @@
 _id: req_caab11a677ee4756b69f2772b5c5bc19
 type: Request
 parentId: fld_e260f79bab6f4109929d4c28c989261a
-modified: 1680800959621
+modified: 1680807043256
 created: 1680027428767
 url: "{{ _.baseUrl }}/api/payment/razorpay-post"
 name: Razor pay payment
@@ -12,8 +12,7 @@ body:
   text: |-
     {
     	"courseId":[
-    		1,
-    		2
+    		3
     	]
     }
 parameters: []
